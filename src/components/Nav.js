@@ -49,22 +49,22 @@ export default function Nav() {
       <div className="line"></div>
       <ul className={burger ? "sidebar" : "sidebar active"}>
         <li onClick={closeNav}>
-          <NavLink to="/" className="link" style={styleNav}>
+          <NavLink to="/Space2" className="link" style={styleNav}>
             <span className="nav-numbers">00</span>HOME
           </NavLink>
         </li>
         <li onClick={closeNav}>
-          <NavLink to="destination" className="link" style={styleNav}>
+          <NavLink to="/Space2/destination" className="link" style={styleNav}>
             <span className="nav-numbers">01</span>DESTINATION
           </NavLink>
         </li>
         <li onClick={closeNav}>
-          <NavLink to="crew" className="link" style={styleNav}>
+          <NavLink to="/Space2/crew" className="link" style={styleNav}>
             <span className="nav-numbers">02</span>CREW
           </NavLink>
         </li>
         <li onClick={closeNav}>
-          <NavLink to="technology" className="link" style={styleNav}>
+          <NavLink to="/Space2/technology" className="link" style={styleNav}>
             <span className="nav-numbers">03</span>TECHNOLOGY
           </NavLink>
         </li>

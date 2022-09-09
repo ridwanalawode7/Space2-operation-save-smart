@@ -18,7 +18,7 @@ export default function Home() {
         </p>
       </div>
       <div className="btn-container">
-        <button className="btn" onClick={() => navigate("destination")}>
+        <button className="btn" onClick={() => navigate("/Space2/destination")}>
           EXPLORE
         </button>
       </div>

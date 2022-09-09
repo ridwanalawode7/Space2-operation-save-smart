@@ -24,8 +24,8 @@ function App() {
     <div className={"body " + location}>
       <Nav />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="destination" element={<Destination />}>
+        <Route path="Space2/" element={<Home />} />
+        <Route path="Space2/destination" element={<Destination />}>
           <Route
             index
             element={
@@ -82,7 +82,7 @@ function App() {
             }
           />
         </Route>
-        <Route path="crew" element={<Crew />}>
+        <Route path="Space2/crew" element={<Crew />}>
           <Route
             index
             element={
@@ -134,7 +134,7 @@ function App() {
             }
           />
         </Route>
-        <Route path="technology" element={<Technology />}>
+        <Route path="Space2/technology" element={<Technology />}>
           <Route
             index
             element={
