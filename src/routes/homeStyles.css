@@ -1,0 +1,100 @@
+.content {
+  text-align: center;
+  gap: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8.1rem;
+}
+.question {
+  font-family: "Barlow Condensed";
+  font-size: 1.6rem;
+}
+.space {
+  font-family: "Bellefair";
+  font-size: 8rem;
+}
+.text {
+  font-family: "Barlow";
+  font-size: 1.5rem;
+  color: #d0d6f9;
+  width: 90%;
+  margin-inline: auto;
+  line-height: 2.5rem;
+}
+.btn {
+  aspect-ratio: 1;
+  width: 15rem;
+  border-radius: 50%;
+  font-family: "Bellefair";
+  font-size: 2rem;
+  margin-inline: auto;
+  display: grid;
+  place-content: center;
+  outline: 0;
+  transition: all ease-in 350ms;
+}
+.btn:hover {
+  outline: 2.1rem solid #24262f;
+}
+@media (min-width: 375px) {
+  .home {
+    padding-bottom: 8rem;
+    margin-top: 10.6rem;
+  }
+  .content {
+    margin-bottom: 0;
+  }
+  .question {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  /* .space {
+    font-size: 15rem;
+  } */
+  .text {
+    font-size: 1.8rem;
+    margin-bottom: 15.6rem;
+    width: 90%;
+    line-height: 2.8rem;
+  }
+  .btn {
+    width: 24.2rem;
+    font-size: 3.2rem;
+  }
+}
+@media (min-width: 1220px) {
+  .home {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25.1rem;
+    gap: 39.1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    text-align: start;
+    width: 44.6rem;
+  }
+  .question {
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    letter-spacing: 0.4725rem;
+    margin-bottom: 2.4rem;
+  }
+  .space {
+    font-size: 15rem;
+    line-height: 17.2rem;
+    margin-bottom: 2.4rem;
+  }
+  .text {
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+  }
+  .btn {
+    width: 27.4rem;
+    font-size: 3.2rem;
+    line-height: 3.7rem;
+    letter-spacing: 0.2rem;
+  }
+}

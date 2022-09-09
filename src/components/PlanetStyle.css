@@ -1,0 +1,77 @@
+.planet-name {
+  font-size: 5.6rem;
+  font-family: "Bellefair";
+  text-align: center;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+.planet-description {
+  width: 32.7rem;
+  margin-inline: auto;
+  font-size: 1.5rem;
+  font-family: "Barlow";
+  margin-bottom: 3.2rem;
+  text-align: center;
+  color: #d0d6f9;
+  border-bottom: 1px solid #383b4b;
+  padding-bottom: 4.9rem;
+  line-height: 2.5rem;
+}
+.travel-box {
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3.2em;
+  gap: 3.2em;
+  font-size: 1.5rem;
+  font-family: "Barlow Condensed";
+  color: #d0d6f9;
+  text-transform: uppercase;
+  text-align: center;
+}
+.travel-value {
+  display: block;
+  font-size: 2.8rem;
+  font-family: "Bellefair";
+  color: white;
+}
+@media (min-width: 765px) {
+  .plnat-name {
+    font-size: 8rem;
+    margin-bottom: 0.8rem;
+  }
+  .planet-description {
+    width: 57.3rem;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 2.8rem;
+  }
+  .travel-box {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .travel-value {
+    margin-block: 1.2rem 6rem;
+  }
+}
+@media (min-width: 1220px) {
+  .planet-name {
+    text-align: start;
+    font-size: 10rem;
+    line-height: 11.5rem;
+  }
+  .planet-description {
+    text-align: start;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    width: 100%;
+    padding-bottom: 5.4rem;
+  }
+  .planet-content {
+    width: 44.5rem;
+  }
+  .travel-box {
+    text-align: start;
+  }
+}

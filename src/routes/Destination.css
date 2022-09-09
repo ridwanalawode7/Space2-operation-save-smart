@@ -1,0 +1,82 @@
+.destination {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.destination-head {
+  font-size: 1.6rem;
+  font-family: "Barlow Condensed";
+  margin: auto;
+}
+.planet-no {
+  font-family: inherit;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  margin-right: 1.8rem;
+}
+.planet-img {
+  width: min(170px, 50%);
+  aspect-ratio: 1;
+  margin-inline: auto;
+  margin-block: 3.2rem 2.6rem;
+}
+.planet-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-transform: uppercase;
+  gap: 2.6rem;
+  width: 70%;
+  margin-inline: auto;
+}
+.planet-link {
+  padding-bottom: 0.6em;
+  font-size: 1.4rem;
+  font-family: "Barlow Condensed";
+}
+@media (min-width: 675px) {
+  .destination-head {
+    margin-left: 3.75rem;
+    margin-block: 4rem 6rem;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  .planet-img {
+    margin-block: 0 5.3rem;
+    width: 30rem;
+  }
+  .planet-nav {
+    gap: 3.5rem;
+    font-size: 1.6rem;
+    margin-bottom: 4.7rem;
+  }
+}
+@media (min-width: 1220px) {
+  .destination-head {
+    margin-left: 16.7rem;
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    letter-spacing: 0.4725rem;
+  }
+  .img-nd-combo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15.7rem;
+    margin-top: 6.4rem;
+  }
+  .planet-img {
+    margin: 0;
+    min-width: 44.5rem;
+  }
+  .planet-nav {
+    text-align: start;
+    margin-inline: 0;
+    margin-bottom: 3.7rem;
+    justify-content: start;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.27rem;
+  }
+}

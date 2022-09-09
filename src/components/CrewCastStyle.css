@@ -1,0 +1,49 @@
+.role {
+  font-family: "Bellefair";
+  font-size: 1.6rem;
+  opacity: 0.5;
+  text-align: center;
+  text-transform: uppercase;
+}
+.name {
+  font-family: "Bellefair";
+  font-size: 2.8rem;
+  text-align: center;
+  margin-block: 0.8rem 1.6rem;
+}
+.bio {
+  font-family: "Barlow";
+  font-size: 1.5rem;
+  color: #d0d6f9;
+  text-align: center;
+  width: 32.7rem;
+  margin-inline: auto;
+  margin-bottom: 5rem;
+}
+@media (min-width: 765px) {
+  .role {
+    font-size: 2.4rem;
+    line-height: 2.75rem;
+  }
+  .name {
+    font-size: 4rem;
+    line-height: 4.584rem;
+    text-transform: uppercase;
+  }
+  .bio {
+    width: 59.3rem;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 4rem;
+  }
+  .bio.Commander {
+    width: 45.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  .role,
+  .bio,
+  .name {
+    text-align: start;
+  }
+}
