@@ -80,7 +80,7 @@
   .nav-outlet {
     /* order: ; */
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .crew-nav {
     justify-content: start;

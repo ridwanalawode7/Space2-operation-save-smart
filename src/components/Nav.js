@@ -49,7 +49,7 @@ export default function Nav() {
       <div className="line"></div>
       <ul className={burger ? "sidebar" : "sidebar active"}>
         <li onClick={closeNav}>
-          <NavLink to="/Space2" className="link" style={styleNav}>
+          <NavLink to="/Space2" className="link" end={true} style={styleNav}>
             <span className="nav-numbers">00</span>HOME
           </NavLink>
         </li>

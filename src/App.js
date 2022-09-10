@@ -15,7 +15,7 @@ import { useLocation } from "react-router-dom";
 
 function App() {
   const path = useLocation().pathname;
-  const location = path.split("/")[1];
+  const location = path.split("/")[2];
   const destinationList = Data.destinations;
   const crewList = Data.crew;
   const techList = Data.technology;

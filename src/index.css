@@ -5,6 +5,8 @@
 }
 html {
   font-size: 10px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 * {
   box-sizing: border-box;
@@ -20,11 +22,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
+  max-width: 100%;
   overflow-x: hidden;
 }
 .body {
-  background: url("./starter-code/assets/home/background-home-mobile.jpg")
-    no-repeat fixed;
+  background-image: url("./starter-code/assets/home/background-home-mobile.jpg");
+  background-position: center;
+  background-size: cover;
+  position: sticky;
+  min-width: 100%;
+  min-height: 100%;
 }
 .body.destination {
   background: url("./starter-code/assets/destination/background-destination-mobile.jpg")
