@@ -8,6 +8,11 @@
 .question {
   font-family: "Barlow Condensed";
   font-size: 1.6rem;
+  line-height: 1.9rem;
+  letter-spacing: .27rem;
+text-align: center;
+  font-weight: 400;
+
 }
 .space {
   font-family: "Bellefair";
@@ -17,7 +22,7 @@
   font-family: "Barlow";
   font-size: 1.5rem;
   color: #d0d6f9;
-  width: 90%;
+  padding-inline: 2.4rem;
   margin-inline: auto;
   line-height: 2.5rem;
 }
@@ -36,7 +41,7 @@
 .btn:hover {
   outline: 2.1rem solid #24262f;
 }
-@media (min-width: 375px) {
+@media (min-width: 765px) {
   .home {
     padding-bottom: 8rem;
     margin-top: 10.6rem;

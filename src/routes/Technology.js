@@ -19,7 +19,7 @@ export default function Technology() {
     };
   };
   const [techImg, setTechImg] = useState(
-    window.innerWidth ? portraitTechImg : TechImg
+    window.innerWidth > 1200 ? portraitTechImg : TechImg
   );
   console.log(window.innerWidth);
   // useEffect(() => {

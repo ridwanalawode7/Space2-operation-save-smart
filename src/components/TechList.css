@@ -3,6 +3,12 @@
   font-size: 1.4rem;
   color: #d0d6f9;
   margin-bottom: 0.9rem;
+  line-height: 1.7rem;
+
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.236rem;
+  font-weight: 400;
 }
 .techlist-name {
   font-family: "Bellefair";
@@ -12,8 +18,8 @@
 }
 .techlist-description {
   font-family: "Barlow";
-  font-size: 1.5rem;
-  min-width: 32.7rem;
+  font-size: 1.69rem;
+  width: 32.7rem;
   margin-inline: auto;
   padding-bottom: 7rem;
   color: #d0d6f9;

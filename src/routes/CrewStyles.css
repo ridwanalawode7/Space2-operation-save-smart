@@ -1,8 +1,11 @@
 .crew-head {
   font-family: "Barlow Condensed";
   font-size: 1.6rem;
+    line-height: 1.9rem;
+  letter-spacing: .27rem;
   margin-bottom: 3.2rem;
   text-align: center;
+  font-weight: 400;
 }
 .crew-no {
   font-weight: 700;

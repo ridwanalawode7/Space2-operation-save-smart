@@ -7,6 +7,10 @@
   font-size: 1.6rem;
   font-family: "Barlow Condensed";
   margin: auto;
+  line-height: 1.9rem;
+  letter-spacing: .27rem;
+  font-weight: 400;
+
 }
 .planet-no {
   font-family: inherit;
